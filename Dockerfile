@@ -9,5 +9,4 @@ RUN pwd
 RUN ls
 RUN npm install
 RUN ls
-USER sbx_user1051
 CMD [ "/home/workspace/index.handler" ]
