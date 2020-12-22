@@ -8,5 +8,6 @@ COPY . .
 RUN pwd
 RUN ls
 RUN npm install
+RUN CYPRESS_INSTALL_BINARY=./cypress.zip npm install cypress
 RUN ls
 CMD [ "/home/workspace/index.handler" ]
